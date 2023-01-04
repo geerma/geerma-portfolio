@@ -1,8 +1,12 @@
+import Navbar from "../components/Navbar/Navbar"
+
 function Projects() {
 
   return(
     <>
-    <div></div>
+    <div>
+      <Navbar />
+    </div>
     </>
   )
 }
