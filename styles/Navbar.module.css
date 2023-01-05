@@ -17,7 +17,8 @@
 }
 
 .navbuttons > .navlink {
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
   float: left;
 }
 
@@ -25,5 +26,5 @@
   color: black;
   font-size: 18px;
   font-weight: 450;
-  line-height: 36px;
+  line-height: 18px;
 }

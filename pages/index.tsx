@@ -18,25 +18,25 @@ export default function Home() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-
         <div className={styles.center}>
+          <h1 className={inter.className}>Hello! I'm Geer Ma</h1>
+          <br></br>
+          <h2 className={inter.className}>
+            Master of Software Engineering | Full-stack Developer
+          </h2>
+          <br></br>
+          <p className={inter.className}>
+            I am a passionate software developer
+          </p>
+          {/* 
           <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
+            className={styles.profile}
+            src="profile.svg"
+            alt="Profile Picture"
             width={180}
-            height={37}
+            height={180}
             priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
+          /> */}
         </div>
 
         <div className={styles.grid}>
@@ -46,11 +46,19 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image
+              className={styles.logo}
+              src="/next.svg"
+              alt="Project 1"
+              width={180}
+              height={80}
+              priority
+            />
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              Project 1 <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Find in-depth information about Project 1.&nbsp;
             </p>
           </a>
 
@@ -60,12 +68,18 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image
+              className={styles.logo}
+              src="/next.svg"
+              alt="Project 2"
+              width={180}
+              height={80}
+              priority
+            />
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              Project 2 <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
+            <p className={inter.className}>Learn about Project&nbsp;2!</p>
           </a>
 
           <a
@@ -74,12 +88,18 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image
+              className={styles.logo}
+              src="/next.svg"
+              alt="Project 3"
+              width={180}
+              height={80}
+              priority
+            />
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Project 3 <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
+            <p className={inter.className}>Discover Project&nbsp;3.</p>
           </a>
 
           <a
@@ -88,13 +108,18 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image
+              className={styles.logo}
+              src="/next.svg"
+              alt="Project 4"
+              width={180}
+              height={80}
+              priority
+            />
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Project 4 <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
+            <p className={inter.className}>Project&nbsp;4.</p>
           </a>
         </div>
       </main>
