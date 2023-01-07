@@ -6,6 +6,9 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 import Navbar from "../components/Navbar/Navbar";
+import { Button } from "@mui/material";
+
+import profileImage from "../public/profile.jpg"
 
 export default function Home() {
   return (
@@ -28,15 +31,23 @@ export default function Home() {
           <p className={inter.className}>
             I am a passionate software developer
           </p>
-          {/* 
           <Image
             className={styles.profile}
-            src="profile.svg"
+            src={profileImage}
             alt="Profile Picture"
-            width={180}
-            height={180}
+            width={240}
+            height={240}
+            quality={100}
             priority
-          /> */}
+          />
+          <Button
+            variant="contained"
+            onClick={() => {
+              alert("Clicked");
+            }}
+          >
+            Resume
+          </Button>
         </div>
 
         <div className={styles.grid}>
