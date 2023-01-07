@@ -35,9 +35,9 @@ export default function Home() {
             className={styles.profile}
             src={profileImage}
             alt="Profile Picture"
-            width={240}
-            height={240}
-            quality={100}
+            width={180}
+            height={180}
+            quality={97}
             priority
           />
           <Button

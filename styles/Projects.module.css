@@ -1,6 +1,6 @@
-/* Home Page CSS */
+/* Projects Page CSS */
 
-.main {
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,9 +8,10 @@
   min-height: 100vh;
 }
 
-.profile {
-  border-radius: 100%;
-  margin: 2rem;
+.projectgrid {
+  width: 80vw;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .code {
