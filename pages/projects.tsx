@@ -9,6 +9,7 @@ import Navbar from "../components/Navbar/Navbar";
 import { Box } from "@mui/system";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import Button from "@mui/material/Button";
+import Projectpageproject from "../components/Projectpageproject/Projectpageproject";
 
 function Projects() {
   return (
@@ -31,7 +32,10 @@ function Projects() {
         <div className={styles.projectgrid}>
           <Grid container spacing={2}>
             <Grid xs={6}>
-              <h2>Project 1</h2>
+              <Projectpageproject 
+                projectName="Name"
+                projectDescription="Description"
+              />
             </Grid>
             <Grid xs={6}>
               <h2>Project 2</h2>

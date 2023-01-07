@@ -1,0 +1,13 @@
+/* Home Page */
+
+/* Project Page */
+
+.projectpage_project {
+    border: 1px solid rgb(81, 177, 221);
+    margin: 1rem;
+}
+
+.projectpage_project_image {
+    border: 1px solid black;
+    margin: 1rem;
+}
