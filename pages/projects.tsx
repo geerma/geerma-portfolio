@@ -10,8 +10,22 @@ import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import Projectpageproject from "../components/Projectpageproject/Projectpageproject";
 
 import activetechstyleImage from "../public/activetechstyle.jpg";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1600,
+    },
+  },
+});
 
 function Projects() {
+
   return (
     <>
       <Head>
@@ -30,40 +44,42 @@ function Projects() {
         </div>
 
         <div className={styles.projectgrid}>
-          <Grid container spacing={2}>
-            <Grid xs={6} className={styles.gridcomponent}>
-              <Projectpageproject
-                projectImage={activetechstyleImage}
-                projectName="Active Tech Style"
-                projectTechStack="React, Spring Boot, MySQL"
-                projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
-              />
+          <ThemeProvider theme={theme}>
+            <Grid container spacing={2}>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectName="Active Tech Style"
+                  projectTechStack="React, Spring Boot, MySQL"
+                  projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectName="Project 2"
+                  projectTechStack="React, Spring Boot, MySQL"
+                  projectDescription="Description"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectName="Project 3"
+                  projectTechStack="React, Spring Boot, MySQL"
+                  projectDescription="Description"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectName="Project 4"
+                  projectTechStack="React, Spring Boot, MySQL"
+                  projectDescription="Description"
+                />
+              </Grid>
             </Grid>
-            <Grid xs={6} className={styles.gridcomponent}>
-              <Projectpageproject
-                projectImage={activetechstyleImage}
-                projectName="Project 2"
-                projectTechStack="React, Spring Boot, MySQL"
-                projectDescription="Description"
-              />
-            </Grid>
-            <Grid xs={6}>
-            <Projectpageproject
-                projectImage={activetechstyleImage}
-                projectName="Project 3"
-                projectTechStack="React, Spring Boot, MySQL"
-                projectDescription="Description"
-              />
-            </Grid>
-            <Grid xs={6}>
-            <Projectpageproject
-                projectImage={activetechstyleImage}
-                projectName="Project 4"
-                projectTechStack="React, Spring Boot, MySQL"
-                projectDescription="Description"
-              />
-            </Grid>
-          </Grid>
+          </ThemeProvider>
         </div>
 
         <div className={styles.grid}>
@@ -129,4 +145,15 @@ function Projects() {
   );
 }
 
+declare module "@mui/material/styles" {
+  interface BreakpointOverrides {
+    xs: true;
+    sm: true;
+    md: true;
+    lg: true;
+    xl: true;
+  }
+}
+
 export default Projects;
+

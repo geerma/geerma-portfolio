@@ -11,7 +11,8 @@
 .projectgrid {
   width: 80vw;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid rgb(66, 61, 61);
+  min-width: 1150px;
 }
 
 .code {
@@ -158,31 +159,20 @@
     );
     z-index: 1;
   }
+
+  .projectgrid {
+    min-width: 575px;
+  }
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
+  .projectgrid {
+    min-width: 600px;
   }
 
-  .logo,
-  .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
 }
