@@ -5,6 +5,8 @@
 .projectpage_project {
     border: 1px solid rgb(81, 177, 221);
     margin: 1rem;
+    min-width: 525px;
+    width: 525px;;
 }
 
 .projectpage_project_image {

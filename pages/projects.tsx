@@ -6,10 +6,10 @@ import styles from "../styles/Projects.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 import Navbar from "../components/Navbar/Navbar";
-import { Box } from "@mui/system";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
-import Button from "@mui/material/Button";
 import Projectpageproject from "../components/Projectpageproject/Projectpageproject";
+
+import activetechstyleImage from "../public/activetechstyle.jpg";
 
 function Projects() {
   return (
@@ -31,20 +31,37 @@ function Projects() {
 
         <div className={styles.projectgrid}>
           <Grid container spacing={2}>
-            <Grid xs={6}>
-              <Projectpageproject 
-                projectName="Name"
+            <Grid xs={6} className={styles.gridcomponent}>
+              <Projectpageproject
+                projectImage={activetechstyleImage}
+                projectName="Active Tech Style"
+                projectTechStack="React, Spring Boot, MySQL"
+                projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+              />
+            </Grid>
+            <Grid xs={6} className={styles.gridcomponent}>
+              <Projectpageproject
+                projectImage={activetechstyleImage}
+                projectName="Project 2"
+                projectTechStack="React, Spring Boot, MySQL"
                 projectDescription="Description"
               />
             </Grid>
             <Grid xs={6}>
-              <h2>Project 2</h2>
+            <Projectpageproject
+                projectImage={activetechstyleImage}
+                projectName="Project 3"
+                projectTechStack="React, Spring Boot, MySQL"
+                projectDescription="Description"
+              />
             </Grid>
             <Grid xs={6}>
-              <h2>Project 3</h2>
-            </Grid>
-            <Grid xs={6}>
-              <h2>Project 4</h2>
+            <Projectpageproject
+                projectImage={activetechstyleImage}
+                projectName="Project 4"
+                projectTechStack="React, Spring Boot, MySQL"
+                projectDescription="Description"
+              />
             </Grid>
           </Grid>
         </div>
