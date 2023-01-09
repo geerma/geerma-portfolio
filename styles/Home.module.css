@@ -8,6 +8,19 @@
   min-height: 100vh;
 }
 
+.center h1 {
+  font-size: 40px;
+}
+
+.center h2 {
+  font-weight: 400;
+}
+
+.center p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .profile {
   border-radius: 100%;
   margin: 2rem;
@@ -18,8 +31,36 @@
   margin: auto;
 }
 
-.project_text {
+.project_text h2 {
+  font-size: 28px;
+}
 
+.project_text h3 {
+  font-size: 20px;
+  font-weight: 425;
+  margin-top: 5px;
+}
+
+.project_text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.project_text p {
+  font-size: 16px;
+  font-weight: 350;
+  margin-top: 1rem;
+}
+
+.project_buttons .github_button {
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+.project_buttons .live_button {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .code {
@@ -98,11 +139,15 @@
     padding: 5px;
     margin: auto;
   }
-  
+
   .project_text {
     display: flex;
     flex-direction: column;
     margin: auto;
+    text-align: center;
+  }
+
+  .project_buttons {
     text-align: center;
   }
 
@@ -182,17 +227,22 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1150px) {
+@media (min-width: 701px) and (max-width: 1200px) {
   .project_picture {
     display: flex;
     padding: 5px;
     margin: auto;
   }
-  
+
   .project_text {
     display: flex;
     flex-direction: column;
     margin: auto;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .project_buttons {
     text-align: center;
   }
 

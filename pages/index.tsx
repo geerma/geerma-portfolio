@@ -9,8 +9,8 @@ import Navbar from "../components/Navbar/Navbar";
 import { Button } from "@mui/material";
 
 import profileImage from "../public/profile.jpg";
-import Grid from "@mui/material/Unstable_Grid2";
 
+import activetechstyleImage from "../public/activetechstyle.jpg";
 import Homepageproject from "../components/Homepageproject/Homepageproject";
 
 export default function Home() {
@@ -28,7 +28,10 @@ export default function Home() {
           <h1 className={inter.className}>Hello! I'm Geer Ma</h1>
           <br></br>
           <h2 className={inter.className}>
-            Master of Software Engineering | Full-stack Developer
+            Master of Software Engineering
+          </h2>
+          <h2 className={inter.className}>
+            Full-stack Developer
           </h2>
           <br></br>
           <p className={inter.className}>
@@ -55,7 +58,7 @@ export default function Home() {
 
         <div>
           <Homepageproject 
-           projectImage={profileImage}
+           projectImage={activetechstyleImage}
            projectGithubLink="https://github.com/geerma/activetechstyle"
            projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
            projectName="Active Tech Style"
@@ -65,7 +68,7 @@ export default function Home() {
           />
           <br></br>
           <Homepageproject 
-           projectImage={profileImage}
+           projectImage={activetechstyleImage}
            projectGithubLink="https://github.com/geerma/activetechstyle"
            projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
            projectName="Active Tech Style"
