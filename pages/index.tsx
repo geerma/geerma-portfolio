@@ -8,7 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 import Navbar from "../components/Navbar/Navbar";
 import { Button } from "@mui/material";
 
-import profileImage from "../public/profile.jpg"
+import profileImage from "../public/profile.jpg";
+import Grid from "@mui/material/Unstable_Grid2";
+
+import Homepageproject from "../components/Homepageproject/Homepageproject";
 
 export default function Home() {
   return (
@@ -50,88 +53,26 @@ export default function Home() {
           </Button>
         </div>
 
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/next.svg"
-              alt="Project 1"
-              width={180}
-              height={80}
-              priority
-            />
-            <h2 className={inter.className}>
-              Project 1 <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Project 1.&nbsp;
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/next.svg"
-              alt="Project 2"
-              width={180}
-              height={80}
-              priority
-            />
-            <h2 className={inter.className}>
-              Project 2 <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>Learn about Project&nbsp;2!</p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/next.svg"
-              alt="Project 3"
-              width={180}
-              height={80}
-              priority
-            />
-            <h2 className={inter.className}>
-              Project 3 <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>Discover Project&nbsp;3.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/next.svg"
-              alt="Project 4"
-              width={180}
-              height={80}
-              priority
-            />
-            <h2 className={inter.className}>
-              Project 4 <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>Project&nbsp;4.</p>
-          </a>
+        <div>
+          <Homepageproject 
+           projectImage={profileImage}
+           projectGithubLink="https://github.com/geerma/activetechstyle"
+           projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
+           projectName="Active Tech Style"
+           projectTechStack="React, Spring Boot, MySQL"
+           projectMotivation="Course Project (Improvements made after - as a Personal Project)"
+           projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+          />
+          <br></br>
+          <Homepageproject 
+           projectImage={profileImage}
+           projectGithubLink="https://github.com/geerma/activetechstyle"
+           projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
+           projectName="Active Tech Style"
+           projectTechStack="React, Spring Boot, MySQL"
+           projectMotivation="Course Project (Improvements made after - as a Personal Project)"
+           projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+          />
         </div>
       </main>
     </>

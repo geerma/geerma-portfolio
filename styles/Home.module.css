@@ -13,6 +13,15 @@
   margin: 2rem;
 }
 
+.project_picture {
+  display: flex;
+  margin: auto;
+}
+
+.project_text {
+
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -84,6 +93,19 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .project_picture {
+    display: flex;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .project_text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
   .content {
     padding: 4rem;
   }
@@ -160,7 +182,20 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px) and (max-width: 1150px) {
+  .project_picture {
+    display: flex;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .project_text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
