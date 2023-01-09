@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
@@ -21,6 +22,10 @@ const Projectpageproject = ({projectImage, projectName, projectTechStack, projec
             height={300}
             quality={95}
         />
+        <div>
+        <a href="/"><Button className={styles.project_button} variant="contained" color="primary">Github</Button></a>
+        <a href="/"><Button className={styles.project_button} variant="contained" color="primary">Live</Button></a>
+        </div>
         <h2>{projectName}</h2>
         <h3>{projectTechStack}</h3>
         <p>{projectDescription}</p>
