@@ -6,12 +6,14 @@ import styles from "../../styles/Individualproject.module.css";
 
 type ProjectpageprojectsProps = {
     projectImage: StaticImageData;
+    projectGithubLink: string;
+    projectLiveLink: string;
     projectName: string;
     projectTechStack: string;
     projectDescription: string;
 }
 
-const Projectpageproject = ({projectImage, projectName, projectTechStack, projectDescription}: ProjectpageprojectsProps) => {
+const Projectpageproject = ({projectImage, projectGithubLink, projectLiveLink, projectName, projectTechStack, projectDescription}: ProjectpageprojectsProps) => {
   return (
     <div className={styles.projectpage_project}>
         <Image 
@@ -23,8 +25,8 @@ const Projectpageproject = ({projectImage, projectName, projectTechStack, projec
             quality={95}
         />
         <div>
-        <a href="/"><Button className={styles.project_button} variant="contained" color="primary">Github</Button></a>
-        <a href="/"><Button className={styles.project_button} variant="contained" color="primary">Live</Button></a>
+        <a href={projectGithubLink}><Button className={styles.project_button} variant="contained" color="primary">Github</Button></a>
+        <a href={projectLiveLink}><Button className={styles.project_button} variant="contained" color="primary">Live</Button></a>
         </div>
         <h2>{projectName}</h2>
         <h3>{projectTechStack}</h3>

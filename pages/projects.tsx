@@ -49,6 +49,8 @@ function Projects() {
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/activetechstyle"
+                  projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
                   projectName="Active Tech Style"
                   projectTechStack="React, Spring Boot, MySQL"
                   projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
@@ -57,6 +59,8 @@ function Projects() {
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/"
+                  projectLiveLink="https://github.com/geerma/"
                   projectName="Project 2"
                   projectTechStack="React, Spring Boot, MySQL"
                   projectDescription="Description"
@@ -65,6 +69,8 @@ function Projects() {
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/"
+                  projectLiveLink="https://github.com/geerma/"
                   projectName="Project 3"
                   projectTechStack="React, Spring Boot, MySQL"
                   projectDescription="Description"
@@ -73,6 +79,8 @@ function Projects() {
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/"
+                  projectLiveLink="https://github.com/geerma/"
                   projectName="Project 4"
                   projectTechStack="React, Spring Boot, MySQL"
                   projectDescription="Description"
