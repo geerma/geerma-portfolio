@@ -61,8 +61,8 @@ function Projects() {
                   projectImage={activetechstyleImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
-                  projectName="Project 2"
-                  projectTechStack="React, Spring Boot, MySQL"
+                  projectName="Cohere Camping Creator"
+                  projectTechStack="React, Express, NLP Cohere API"
                   projectDescription="Description"
                 />
               </Grid>
@@ -71,8 +71,8 @@ function Projects() {
                   projectImage={activetechstyleImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
-                  projectName="Project 3"
-                  projectTechStack="React, Spring Boot, MySQL"
+                  projectName="Leftovers Marketplace"
+                  projectTechStack="React, Express, MongoDB"
                   projectDescription="Description"
                 />
               </Grid>
@@ -81,8 +81,38 @@ function Projects() {
                   projectImage={activetechstyleImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
-                  projectName="Project 4"
+                  projectName="The Giving Tree"
+                  projectTechStack="React, TypeScript, Express"
+                  projectDescription="Description"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/"
+                  projectLiveLink="https://github.com/geerma/"
+                  projectName="Gambling Go Away"
+                  projectTechStack="React, Firebase"
+                  projectDescription="Description"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/activetechstyle"
+                  projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
+                  projectName="ML-MBTI-Webapp"
                   projectTechStack="React, Spring Boot, MySQL"
+                  projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={activetechstyleImage}
+                  projectGithubLink="https://github.com/geerma/"
+                  projectLiveLink="https://github.com/geerma/"
+                  projectName="Blue Sky"
+                  projectTechStack="Microsoft Azure Computer Vision and Speech Recognition, Python"
                   projectDescription="Description"
                 />
               </Grid>

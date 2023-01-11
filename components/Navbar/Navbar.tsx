@@ -24,6 +24,7 @@ const Navbar = () => {
     setAnchorEl(null);
   };
 
+  // https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
   function detectMob() {
     return ( ( window.innerWidth <= 1050 ));
   }

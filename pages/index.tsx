@@ -71,10 +71,10 @@ export default function Home() {
            projectImage={activetechstyleImage}
            projectGithubLink="https://github.com/geerma/activetechstyle"
            projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
-           projectName="Active Tech Style"
-           projectTechStack="React, Spring Boot, MySQL"
-           projectMotivation="Course Project (Improvements made after - as a Personal Project)"
-           projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+           projectName="The Giving Tree"
+           projectTechStack="React, TypeScript, Express, ChatGPT-3 AI"
+           projectMotivation="Hacky Winterland 2"
+           projectDescription="Gift and event suggestion web application created using React, TypeScript, and ChatGPT3-AI. Server deployed to Google Cloud Run via Docker Container"
           />
         </div>
       </main>
