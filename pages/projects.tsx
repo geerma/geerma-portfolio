@@ -1,12 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Projects.module.css";
+import Navbar from "../components/Navbar/Navbar";
 
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
+import styles from "../styles/Projects.module.css";
 
-import Navbar from "../components/Navbar/Navbar";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 import Projectpageproject from "../components/Projectpageproject/Projectpageproject";
 
 import activetechstyleImage from "../assets/ActiveTechStyle.jpg";
@@ -16,7 +17,6 @@ import gamblegoawayImage from "../assets/GambleGoAway.png";
 import mlmbtiwebappImage from "../assets/MLMbtiWebapp.png"
 import leftoversmarketplaceImage from "../assets/LeftoversMarketplace.png";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
   breakpoints: {

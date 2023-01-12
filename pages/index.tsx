@@ -1,18 +1,17 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { Button } from "@mui/material";
 
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
+import styles from "../styles/Home.module.css";
 
-import Navbar from "../components/Navbar/Navbar";
-import { Button } from "@mui/material";
+import Homepageproject from "../components/Homepageproject/Homepageproject";
 
 import profileImage from "../assets/profile.jpg";
-
 import activetechstyleImage from "../assets/ActiveTechStyle.jpg";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
-import Homepageproject from "../components/Homepageproject/Homepageproject";
 
 export default function Home() {
   return (

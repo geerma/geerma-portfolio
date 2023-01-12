@@ -1,0 +1,32 @@
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.center p {
+  margin: 1rem;
+  max-width: 1000px;
+}
+
+.about_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_button {
+  margin: 1rem;
+}
