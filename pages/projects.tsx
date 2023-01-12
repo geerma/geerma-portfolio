@@ -9,7 +9,13 @@ import Navbar from "../components/Navbar/Navbar";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import Projectpageproject from "../components/Projectpageproject/Projectpageproject";
 
-import activetechstyleImage from "../public/activetechstyle.jpg";
+import activetechstyleImage from "../assets/ActiveTechStyle.jpg";
+import blueskyImage from "../assets/BlueSky.png";
+import coherecampingcreatorImage from "../assets/CohereCampingCreator.png";
+import gamblegoawayImage from "../assets/GambleGoAway.png";
+import mlmbtiwebappImage from "../assets/MLMbtiWebapp.png"
+import leftoversmarketplaceImage from "../assets/LeftoversMarketplace.png";
+import thegivingtreeImage from "../assets/TheGivingTree.png";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -58,7 +64,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={coherecampingcreatorImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
                   projectName="Cohere Camping Creator"
@@ -68,7 +74,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={leftoversmarketplaceImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
                   projectName="Leftovers Marketplace"
@@ -78,7 +84,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={thegivingtreeImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
                   projectName="The Giving Tree"
@@ -88,7 +94,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={gamblegoawayImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
                   projectName="Gambling Go Away"
@@ -98,7 +104,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={mlmbtiwebappImage}
                   projectGithubLink="https://github.com/geerma/activetechstyle"
                   projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
                   projectName="ML-MBTI-Webapp"
@@ -108,7 +114,7 @@ function Projects() {
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
-                  projectImage={activetechstyleImage}
+                  projectImage={blueskyImage}
                   projectGithubLink="https://github.com/geerma/"
                   projectLiveLink="https://github.com/geerma/"
                   projectName="Blue Sky"

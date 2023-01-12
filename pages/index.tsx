@@ -8,9 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 import Navbar from "../components/Navbar/Navbar";
 import { Button } from "@mui/material";
 
-import profileImage from "../public/profile.jpg";
+import profileImage from "../assets/profile.jpg";
 
-import activetechstyleImage from "../public/activetechstyle.jpg";
+import activetechstyleImage from "../assets/ActiveTechStyle.jpg";
+import thegivingtreeImage from "../assets/TheGivingTree.png";
 import Homepageproject from "../components/Homepageproject/Homepageproject";
 
 export default function Home() {
@@ -68,7 +69,7 @@ export default function Home() {
           />
           <br></br>
           <Homepageproject 
-           projectImage={activetechstyleImage}
+           projectImage={thegivingtreeImage}
            projectGithubLink="https://github.com/geerma/activetechstyle"
            projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
            projectName="The Giving Tree"

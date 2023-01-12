@@ -21,7 +21,7 @@ const Projectpageproject = ({projectImage, projectGithubLink, projectLiveLink, p
             src={projectImage}
             alt="Project Picture"
             width={450}
-            height={300}
+            height={325}
             quality={95}
         />
         <div>
