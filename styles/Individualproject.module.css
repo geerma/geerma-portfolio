@@ -40,8 +40,10 @@
 /* Project Page Projects */
 
 .projectpage_project {
-  border: 1px solid rgb(52, 55, 56);
-  margin: 1rem;
+  border: 2px solid rgba(39, 37, 37, 0.85);
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   min-width: 525px;
   width: 525px;
 }
