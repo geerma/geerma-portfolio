@@ -1,5 +1,10 @@
 /* Home Page Projects */
 
+.project_picture {
+  display: flex;
+  margin: auto;
+}
+
 .project_text h2 {
   font-size: 28px;
 }
@@ -47,7 +52,7 @@
 }
 
 .projectpageproject_text {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .projectpageproject_text h2 {

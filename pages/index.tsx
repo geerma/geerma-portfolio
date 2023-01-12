@@ -21,7 +21,7 @@ export default function Home() {
         <title>Geer Ma Portfolio Website</title>
         <meta name="description" content="Geer Ma Portfolio Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar />
       <main className={styles.main}>
@@ -47,14 +47,13 @@ export default function Home() {
             quality={97}
             priority
           />
+          <a target="_blank" href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan11.pdf" rel="noopener noreferrer">
           <Button
             variant="contained"
-            onClick={() => {
-              alert("Clicked");
-            }}
           >
             Resume
           </Button>
+          </a>
         </div>
 
         <div>
