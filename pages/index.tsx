@@ -70,11 +70,11 @@ export default function Home() {
           <br></br>
           <Homepageproject 
            projectImage={thegivingtreeImage}
-           projectGithubLink="https://github.com/geerma/activetechstyle"
-           projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
+           projectGithubLink="https://github.com/geerma/thegivingtree"
+           projectLiveLink="https://www.thegivingtree.tech/"
            projectName="The Giving Tree"
            projectTechStack="React, TypeScript, Express, ChatGPT-3 AI"
-           projectMotivation="Hacky Winterland 2"
+           projectMotivation="Hackathon - Hacky Winterland 2"
            projectDescription="Gift and event suggestion web application created using React, TypeScript, and ChatGPT3-AI. Server deployed to Google Cloud Run via Docker Container"
           />
         </div>

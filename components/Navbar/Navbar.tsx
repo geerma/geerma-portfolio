@@ -7,8 +7,6 @@ import { Button, Menu, MenuItem } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);

@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -8,12 +10,12 @@
 
 .logo {
   margin: 1rem;
-  margin-left: 18rem;
+  margin-left: 14rem;
 }
 
 .navbuttons {
   margin: 1rem;
-  margin-right: 18rem;
+  margin-right: 14rem;
 }
 
 .navbuttons > .navlink {

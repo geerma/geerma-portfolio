@@ -59,67 +59,74 @@ function Projects() {
                   projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
                   projectName="Active Tech Style"
                   projectTechStack="React, Spring Boot, MySQL"
+                  projectMotivation="Architecture and Database Course Project (Improvements made after as a Personal Project)"
                   projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
-                />
-              </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
-                <Projectpageproject
-                  projectImage={coherecampingcreatorImage}
-                  projectGithubLink="https://github.com/geerma/"
-                  projectLiveLink="https://github.com/geerma/"
-                  projectName="Cohere Camping Creator"
-                  projectTechStack="React, Express, NLP Cohere API"
-                  projectDescription="Description"
-                />
-              </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
-                <Projectpageproject
-                  projectImage={leftoversmarketplaceImage}
-                  projectGithubLink="https://github.com/geerma/"
-                  projectLiveLink="https://github.com/geerma/"
-                  projectName="Leftovers Marketplace"
-                  projectTechStack="React, Express, MongoDB"
-                  projectDescription="Description"
                 />
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={thegivingtreeImage}
-                  projectGithubLink="https://github.com/geerma/"
-                  projectLiveLink="https://github.com/geerma/"
+                  projectGithubLink="https://github.com/geerma/thegivingtree"
+                  projectLiveLink="https://www.thegivingtree.tech/"
                   projectName="The Giving Tree"
-                  projectTechStack="React, TypeScript, Express"
-                  projectDescription="Description"
+                  projectTechStack="React, TypeScript, Express, OpenAI ChatGPT-3"
+                  projectMotivation="Hackathon - Hacky Winterland 2"
+                  projectDescription="Project utilizes OpenAI ChatGPT-3 to suggest gift and event ideas. Built with React and Express, then deployed via Google Cloud Run"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={leftoversmarketplaceImage}
+                  projectGithubLink="https://github.com/geerma/leftoversmarketplace"
+                  projectLiveLink="https://www.leftoversmarketplace.tech/"
+                  projectName="Leftovers Marketplace"
+                  projectTechStack="React, Express, MongoDB"
+                  projectMotivation="Hackathon - Wafflehacks 2022"
+                  projectDescription="Full-stack web application to help fight food insecurity. Built using React, Express, and MongoDB"
+                />
+              </Grid>
+              <Grid md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={coherecampingcreatorImage}
+                  projectGithubLink="https://github.com/geerma/CohereCampingCreator"
+                  projectLiveLink="https://www.coherecampingcreator.tech/"
+                  projectName="Cohere Camping Creator"
+                  projectTechStack="React, Express, NLP Cohere AI"
+                  projectMotivation="Hackathon - FreyHacks & SimpliHacks 2022"
+                  projectDescription="Project using NLP Cohere AI to generate scary stories and questions to spark camping trip conversations"
                 />
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={gamblegoawayImage}
-                  projectGithubLink="https://github.com/geerma/"
-                  projectLiveLink="https://github.com/geerma/"
+                  projectGithubLink="https://github.com/geerma/GamblingGoAway"
+                  projectLiveLink="https://gambling-go-away.vercel.app/"
                   projectName="Gambling Go Away"
                   projectTechStack="React, Firebase"
-                  projectDescription="Description"
+                  projectMotivation="Hackathon - LaunchHacks 2022"
+                  projectDescription="Web application created using React and Firebase to aid users in overcoming gambling addictions"
                 />
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={mlmbtiwebappImage}
-                  projectGithubLink="https://github.com/geerma/activetechstyle"
-                  projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
+                  projectGithubLink="https://github.com/geerma/ml-mbti-webapp"
+                  projectLiveLink=""
                   projectName="ML-MBTI-Webapp"
-                  projectTechStack="React, Spring Boot, MySQL"
-                  projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+                  projectTechStack="React, Scikit-learn, Flask"
+                  projectMotivation="Machine Learning Course Project"
+                  projectDescription="An MBTI prediction machine learning web app created using Scikit-learn, Flask, and React"
                 />
               </Grid>
               <Grid md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={blueskyImage}
-                  projectGithubLink="https://github.com/geerma/"
-                  projectLiveLink="https://github.com/geerma/"
+                  projectGithubLink="https://github.com/geerma/AzureCloud-OCR-SR"
+                  projectLiveLink=""
                   projectName="Blue Sky"
-                  projectTechStack="Microsoft Azure Computer Vision and Speech Recognition, Python"
-                  projectDescription="Description"
+                  projectTechStack="Python, Microsoft Azure OCR and Speech Recognition"
+                  projectMotivation="Hackathon - ShellHacks 2022"
+                  projectDescription="PySimpleGUI application using Microsoft Azure Computer Vision and Speech Recognition"
                 />
               </Grid>
             </Grid>

@@ -5,7 +5,7 @@ import React from "react";
 
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Individualproject.module.css";
 
 type HomepageprojectsProps = {
   projectImage: StaticImageData;
@@ -48,8 +48,8 @@ const Homepageproject = ({
             <p className={inter.className}>Description: {projectDescription}</p>
           </div>
           <div className={styles.project_buttons}>
-            <Button className={styles.github_button} variant="contained">Github</Button>
-            <Button className={styles.live_button} variant="contained">Live</Button>
+          <a href={projectGithubLink}><Button className={styles.github_button} variant="contained" color="primary">Github</Button></a>
+          <a href={projectLiveLink}><Button className={styles.live_button} variant="contained" color="primary">Live</Button></a>
           </div>
         </Grid>
       </Grid>

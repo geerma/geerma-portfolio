@@ -8,6 +8,15 @@
   min-height: 100vh;
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem 0;
+}
+
 .center h1 {
   font-size: 40px;
 }
@@ -31,42 +40,7 @@
   margin: auto;
 }
 
-.project_text h2 {
-  font-size: 28px;
-}
-
-.project_text h3 {
-  font-size: 20px;
-  font-weight: 425;
-  margin-top: 5px;
-}
-
-.project_text h4 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 1rem;
-}
-
-.project_text p {
-  font-size: 16px;
-  font-weight: 350;
-  margin-top: 1rem;
-}
-
-.project_buttons .github_button {
-    margin-top: 1rem;
-    margin-left: 0rem;
-}
-
-.project_buttons .live_button {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
+/*  */
 
 .grid {
   display: grid;
@@ -99,15 +73,6 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
-}
-
-.center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 2rem 0;
 }
 
 /* Enable hover only on non-touch devices */

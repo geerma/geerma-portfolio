@@ -1,19 +1,77 @@
-/* Home Page */
+/* Home Page Projects */
 
-/* Project Page */
+.project_text h2 {
+  font-size: 28px;
+}
+
+.project_text h3 {
+  font-size: 20px;
+  font-weight: 425;
+  margin-top: 5px;
+}
+
+.project_text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.project_text p {
+  font-size: 16px;
+  font-weight: 350;
+  margin-top: 1rem;
+}
+
+.project_buttons .github_button {
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+
+.project_buttons .live_button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* Project Page Projects */
 
 .projectpage_project {
-    border: 1px solid rgb(81, 177, 221);
-    margin: 1rem;
-    min-width: 525px;
-    width: 525px;;
+  border: 1px solid rgb(52, 55, 56);
+  margin: 1rem;
+  min-width: 525px;
+  width: 525px;
 }
 
 .projectpage_project_image {
-    border: 1px solid rgb(44, 43, 43);
+  border: 1px solid rgb(44, 43, 43);
+  margin: 1rem;
+}
+
+.projectpageproject_text {
     margin: 1rem;
 }
 
+.projectpageproject_text h2 {
+  font-size: 28px;
+}
+
+.projectpageproject_text h3 {
+  font-size: 20px;
+  font-weight: 425;
+  margin-top: 5px;
+}
+
+.projectpageproject_text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.projectpageproject_text p {
+  font-size: 16px;
+  font-weight: 350;
+  margin-top: 1rem;
+}
+
 .project_button {
-    margin: 1rem;
+  margin: 1rem;
 }
