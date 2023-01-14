@@ -5,6 +5,7 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import styles from "../styles/About.module.css";
 import { Button } from "@mui/material";
+import { Box } from "@mui/system";
 
 function About() {
   return (
@@ -36,10 +37,14 @@ function About() {
             href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan11.pdf"
             rel="noopener noreferrer"
           >
-            <Button className={styles.about_button} variant="contained">Resume</Button>
+            <Box m={1}>
+              <Button variant="contained">Resume</Button>
+            </Box>
           </a>
           <a href="/projects">
-            <Button className={styles.about_button} variant="contained">Projects</Button>
+            <Box m={1}>
+              <Button variant="contained">Projects</Button>
+            </Box>
           </a>
           </div>
         </div>

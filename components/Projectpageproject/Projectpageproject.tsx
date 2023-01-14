@@ -5,6 +5,7 @@ import React from 'react'
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import styles from "../../styles/Individualproject.module.css";
+import { Box } from '@mui/system';
 
 type ProjectpageprojectsProps = {
     projectImage: StaticImageData;
@@ -27,9 +28,11 @@ const Projectpageproject = ({projectImage, projectGithubLink, projectLiveLink, p
             height={325}
             quality={95}
         />
-        <div>
-        <a href={projectGithubLink}><Button className={styles.project_button} variant="contained" color="primary">Github</Button></a>
-        {projectLiveLink != "" && <a href={projectLiveLink}><Button className={styles.project_button} variant="contained" color="primary">Live</Button></a>}
+        <div className={styles.projectpageproject_buttons}>
+        <Box mx={1}>
+          <a href={projectGithubLink}><Button variant="contained" color="primary">Github</Button></a>
+        </Box>
+        {projectLiveLink != "" && <Box mx={1}><a href={projectLiveLink}><Button variant="contained" color="primary">Live</Button></a></Box>}
         </div>
         <div className={styles.projectpageproject_text}>
             <h2 className={inter.className}>{projectName}</h2>
