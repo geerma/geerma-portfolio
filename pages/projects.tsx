@@ -52,7 +52,7 @@ function Projects() {
         <div className={styles.projectgrid}>
           <ThemeProvider theme={theme}>
             <Grid container spacing={2}>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={activetechstyleImage}
                   projectGithubLink="https://github.com/geerma/activetechstyle"
@@ -63,7 +63,7 @@ function Projects() {
                   projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={thegivingtreeImage}
                   projectGithubLink="https://github.com/geerma/thegivingtree"
@@ -74,7 +74,7 @@ function Projects() {
                   projectDescription="Project utilizes OpenAI ChatGPT-3 to suggest gift and event ideas. Built with React and Express, then deployed via Google Cloud Run"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={leftoversmarketplaceImage}
                   projectGithubLink="https://github.com/geerma/leftoversmarketplace"
@@ -85,7 +85,7 @@ function Projects() {
                   projectDescription="Full-stack web application to help fight food insecurity. Built using React, Express, and MongoDB"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={coherecampingcreatorImage}
                   projectGithubLink="https://github.com/geerma/CohereCampingCreator"
@@ -96,7 +96,7 @@ function Projects() {
                   projectDescription="Project using NLP Cohere AI to generate scary stories and questions to spark camping trip conversations"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={gamblegoawayImage}
                   projectGithubLink="https://github.com/geerma/GamblingGoAway"
@@ -107,7 +107,7 @@ function Projects() {
                   projectDescription="Web application created using React and Firebase to aid users in overcoming gambling addictions"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={mlmbtiwebappImage}
                   projectGithubLink="https://github.com/geerma/ml-mbti-webapp"
@@ -118,7 +118,7 @@ function Projects() {
                   projectDescription="An MBTI prediction machine learning web app created using Scikit-learn, Flask, and React"
                 />
               </Grid>
-              <Grid md={12} lg={6} className={styles.gridcomponent}>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
                   projectImage={blueskyImage}
                   projectGithubLink="https://github.com/geerma/AzureCloud-OCR-SR"

@@ -1,4 +1,4 @@
-/* Navbar */
+/* NAVBAR */
 
 .navbar {
   display: flex;
@@ -35,7 +35,6 @@
 @media (max-width: 500px) {
   .logo {
     margin-left: 1rem;
-
   }
 
   .logoimage {
