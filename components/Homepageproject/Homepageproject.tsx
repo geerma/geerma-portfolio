@@ -6,6 +6,7 @@ import React from "react";
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import styles from "../../styles/Individualproject.module.css";
+import { Box } from "@mui/system";
 
 type HomepageprojectsProps = {
   projectImage: StaticImageData;
@@ -41,12 +42,14 @@ const Homepageproject = ({
           />
         </Grid>
         <Grid xs={12} sm={12} md={12} lg={6} xl={6}>
-          <div className={styles.project_text}>
-            <h2 className={inter.className}>{projectName}</h2>
-            <h3 className={inter.className}>{projectTechStack}</h3>
-            <h4 className={inter.className}>Motivation: {projectMotivation}</h4>
-            <p className={inter.className}>Description: {projectDescription}</p>
-          </div>
+          <Box mx={2}>
+            <div className={styles.project_text}>
+              <h2 className={inter.className}>{projectName}</h2>
+              <h3 className={inter.className}>{projectTechStack}</h3>
+              <h4 className={inter.className}>Motivation: {projectMotivation}</h4>
+              <p className={inter.className}>Description: {projectDescription}</p>
+            </div>
+          </Box>
           <div className={styles.project_buttons}>
           <a href={projectGithubLink}><Button className={styles.github_button} variant="contained" color="primary">Github</Button></a>
           <a href={projectLiveLink}><Button className={styles.live_button} variant="contained" color="primary">Live</Button></a>

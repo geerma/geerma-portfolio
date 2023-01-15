@@ -30,3 +30,31 @@
   font-weight: 450;
   line-height: 18px;
 }
+
+/* Small mobile */
+@media (max-width: 500px) {
+  .logo {
+    margin-left: 1rem;
+
+  }
+
+  .logoimage {
+    width: 160px;
+    height: 48px;
+  }
+
+  .navbuttons {
+    margin-right: 1rem;
+  }
+}
+
+/* larger mobile */
+@media (min-width: 501px) and (max-width: 850px) {
+  .logo {
+    margin-left: 4rem;
+  }
+
+  .navbuttons {
+    margin-right: 4rem;
+  }
+}

@@ -7,6 +7,7 @@
 
 .project_text h2 {
   font-size: 28px;
+  margin-top: 5px;
 }
 
 .project_text h3 {
@@ -27,6 +28,10 @@
   margin-top: 1rem;
 }
 
+.project_buttons {
+  text-align: center;
+}
+
 .project_buttons .github_button {
   margin-top: 1rem;
   margin-left: 0rem;
@@ -35,6 +40,36 @@
 .project_buttons .live_button {
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+
+  .project_picture {
+    width: 380px;
+    height: 266px;
+  }
+
+  .project_text h2 {
+    font-size: 24px;
+  }
+  
+  .project_text h3 {
+    font-size: 16px;
+  }
+  
+  .project_text h4 {
+    font-size: 14px;
+  }
+  
+  .project_text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project_text {
+    text-align: center;
+  }
 }
 
 /* Project Page Projects */

@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 import styles from "../../styles/Navbar.module.css";
 
 import { Button, Menu, MenuItem } from "@mui/material";
-import logoImage from "../../public/geerma_logo.png";
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -48,6 +47,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.logo}>
         <Image
+          className={styles.logoimage}
           src="/logo_smooth_thin.png"
           alt="Geer Ma Logo Image"
           width={200}
