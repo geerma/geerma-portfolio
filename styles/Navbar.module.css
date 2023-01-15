@@ -3,7 +3,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(139, 174, 202, 0.85);
+  background-color: rgb(226, 240, 249, 0.85);
   box-shadow: 0 3px 9px 0 rgb(0 0 0 / 20%);
   align-items: center;
 }

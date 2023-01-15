@@ -15,6 +15,7 @@ import blueskyImage from "../assets/BlueSky.png";
 import coherecampingcreatorImage from "../assets/CohereCampingCreator.png";
 import gamblegoawayImage from "../assets/GambleGoAway.png";
 import mlmbtiwebappImage from "../assets/MLMbtiWebapp.png"
+import portfolioImage from "../assets/Portfolio.png"
 import leftoversmarketplaceImage from "../assets/LeftoversMarketplace.png";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
 
@@ -94,6 +95,17 @@ function Projects() {
                   projectTechStack="React, Express, NLP Cohere AI"
                   projectMotivation="Hackathon - FreyHacks & SimpliHacks 2022"
                   projectDescription="Project using NLP Cohere AI to generate scary stories and questions to spark camping trip conversations"
+                />
+              </Grid>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
+                  projectImage={portfolioImage}
+                  projectGithubLink="https://github.com/geerma/geerma-portfolio"
+                  projectLiveLink="https://http://geergma.com"
+                  projectName="Portfolio"
+                  projectTechStack="React, Next.js, TypeScript, MaterialUI"
+                  projectMotivation="Personal Project"
+                  projectDescription="The portfolio page that you are currently looking at, which was from scratch without a downloaded template. Tech stack includes React, Next.js, TypeScript, and MaterialUI"
                 />
               </Grid>
               <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>

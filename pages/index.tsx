@@ -24,38 +24,42 @@ export default function Home() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-        <div className={styles.center}>
-          <h1 className={inter.className}>Hello! I'm Geer Ma</h1>
-          <br></br>
-          <h2 className={inter.className}>
-            Master of Software Engineering
-          </h2>
-          <h2 className={inter.className}>
-            Full-stack Developer
-          </h2>
-          <br></br>
-          <p className={inter.className}>
-            I am a passionate software developer
-          </p>
-          <Image
-            className={styles.profile}
-            src={profileImage}
-            alt="Profile Picture"
-            width={180}
-            height={180}
-            quality={97}
-            priority
-          />
-          <a target="_blank" href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan11.pdf" rel="noopener noreferrer">
-          <Button
-            variant="contained"
-          >
-            Resume
-          </Button>
-          </a>
+        <div className={styles.profile_section}>
+          <div className={styles.center}>
+            <h1 className={inter.className}>Hello! I'm Geer Ma</h1>
+            <br></br>
+            <h2 className={inter.className}>
+              Software Engineering MEng Student
+            </h2>
+            <h2 className={inter.className}>
+              Full-stack Developer
+            </h2>
+            <br></br>
+            <Image
+              className={styles.profile}
+              src={profileImage}
+              alt="Profile Picture"
+              width={180}
+              height={180}
+              quality={97}
+              priority
+            />
+            <a target="_blank" href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan11.pdf" rel="noopener noreferrer">
+            <Button className={styles.resume_button}
+              variant="contained"
+            >
+              Resume
+            </Button>
+            </a>
+          </div>
         </div>
 
-        <div>
+        <div className={styles.featuredprojects_section}>
+          <div className={styles.center}>
+            <h4 className={inter.className}>
+              Featured Projects
+            </h4>
+          </div>  
           <Homepageproject 
            projectImage={activetechstyleImage}
            projectGithubLink="https://github.com/geerma/activetechstyle"
@@ -73,7 +77,7 @@ export default function Home() {
            projectName="The Giving Tree"
            projectTechStack="React, TypeScript, Express, ChatGPT-3 AI"
            projectMotivation="Hackathon - Hacky Winterland 2"
-           projectDescription="Gift and event suggestion web application created using React, TypeScript, and ChatGPT3-AI. Server deployed to Google Cloud Run via Docker Container"
+           projectDescription="Gift and event suggestion web application created using React, TypeScript, and ChatGPT3-AI. Server deployed to Google Cloud Run via a Docker image on Google Container Registry"
           />
         </div>
       </main>

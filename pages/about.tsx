@@ -21,8 +21,8 @@ function About() {
         <div className={styles.center}>
           <h1 className={inter.className}>About Me</h1>
           <p className={inter.className}>
-            Hello! My name is Geer Ma. I am pursuing a Master's in Software Engineering at the University
-            of Calgary. I love learning new libraries and frameworks and
+            My name is Geer Ma and I am pursuing a Master's in Software Engineering at the University
+            of Calgary. I love learning new libraries and frameworks, then
             applying those skills in personal projects or hackathons. I have
             taken the initiative to participate in eight hackathons in my free
             time and have received awards in five of them.

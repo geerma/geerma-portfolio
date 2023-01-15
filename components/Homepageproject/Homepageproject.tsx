@@ -28,7 +28,7 @@ const Homepageproject = ({
   projectDescription,
 }: HomepageprojectsProps) => {
   return (
-    <div>
+    <div className={styles.homepage_project}>
       <Grid container columnSpacing={0}>
         <Grid xs={12} sm={12} md={12} lg={6} xl={6}>
           <Image

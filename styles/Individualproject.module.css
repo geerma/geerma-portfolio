@@ -1,5 +1,9 @@
 /* HOME PAGE PROJECTS */
 
+.homepage_project {
+  margin: 1rem;
+}
+
 .project_picture {
   display: flex;
   margin: auto;
@@ -30,6 +34,7 @@
 
 .project_buttons {
   margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project_buttons .github_button {
@@ -138,6 +143,10 @@
     margin: 0rem;
     margin-top: 1rem;
   }
+
+  .projectpageproject_buttons {
+    margin-top: 1rem;
+  }
 }
 
 /* Larger Mobile */
@@ -151,6 +160,10 @@
     width: 380px;
     height: 266px;
     margin: 0rem;
+    margin-top: 1rem;
+  }
+
+  .projectpageproject_buttons {
     margin-top: 1rem;
   }
 }
