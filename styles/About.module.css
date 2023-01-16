@@ -30,3 +30,22 @@
 .about_button {
   margin: 1rem;
 }
+
+.skills_box {
+  border: 1px solid black;
+  margin: 1rem;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.languages_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.individual_item > p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
