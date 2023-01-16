@@ -34,14 +34,14 @@ function About() {
             in eight hackathons in my free time and have received awards in five
             of them.
           </p>
-          <Grid container spacing={8}>
-            <Grid lg={4} className={styles.skills_grid} paddingX={0}>
+          <Grid container spacing={1}>
+            <Grid xs={12} sm={12} md={12} lg={4} xl={4} className={styles.skills_grid} paddingX={0}>
               <Languages />
             </Grid>
-            <Grid lg={4} className={styles.skills_grid} paddingX={0}>
+            <Grid xs={12} sm={12} md={12} lg={4} className={styles.skills_grid} paddingX={0}>
               <FrameworksLibraries />
             </Grid>
-            <Grid lg={4} className={styles.skills_grid} paddingX={0}>
+            <Grid xs={12} sm={12} md={12} lg={4} className={styles.skills_grid} paddingX={0}>
               <Tools />
             </Grid>
           </Grid>

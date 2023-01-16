@@ -18,9 +18,9 @@ export const FrameworksLibraries = () => {
   return (
     <Box className={styles.skills_box}>
       <h2 className={inter.className}>Frameworks</h2>
-      <Box className={styles.languages_box}>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+      <Box className={styles.frameworks_box}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={reactLogo}
               alt="Profile Picture"
@@ -41,8 +41,8 @@ export const FrameworksLibraries = () => {
             <h4 className={inter.className}>Python</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={nodejsLogo}
               alt="Profile Picture"
@@ -54,8 +54,8 @@ export const FrameworksLibraries = () => {
             <h4 className={inter.className}>node.js</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={springLogo}
               alt="Profile Picture"

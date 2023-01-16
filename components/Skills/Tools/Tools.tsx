@@ -21,9 +21,9 @@ export const Tools = () => {
   return (
     <Box className={styles.skills_box}>
       <h2 className={inter.className}>Tools</h2>
-      <Box className={styles.languages_box}>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+      <Box className={styles.tools_box}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={gitLogo}
               alt="Profile Picture"
@@ -53,8 +53,8 @@ export const Tools = () => {
             <h4 className={inter.className}>Docker</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={amazonLogo}
               alt="Profile Picture"
@@ -75,8 +75,8 @@ export const Tools = () => {
             <h4 className={inter.className}>MongoDB</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={gcloudLogo}
               alt="Profile Picture"

@@ -23,8 +23,8 @@ export const Languages = () => {
     <Box className={styles.skills_box}>
       <h2 className={inter.className}>Languages</h2>
       <Box className={styles.languages_box}>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={typescriptLogo}
               alt="Profile Picture"
@@ -54,8 +54,8 @@ export const Languages = () => {
             <h4 className={inter.className}>CSS</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={javascriptLogo}
               alt="Profile Picture"
@@ -76,8 +76,8 @@ export const Languages = () => {
             <h4 className={inter.className}>C++</h4>
           </Box>
         </Grid>
-        <Grid lg={4} paddingX={0}>
-          <Box className={styles.individual_item}>
+        <Grid xs={4} sm={4} md={4} lg={4} xl={4} paddingX={0}>
+          <Box className={styles.individual_column}>
             <Image
               src={javaLogo}
               alt="Profile Picture"

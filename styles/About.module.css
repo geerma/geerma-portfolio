@@ -39,11 +39,36 @@
   text-align: center;
 }
 
-.languages_box {
+/* Title */
+.skills_box > h2 {
+  margin-top: 5px;
+}
+
+.languages_box,
+.frameworks_box,
+.tools_box {
   display: flex;
   flex-direction: row;
 }
 
-.individual_item > h4 {
+.individual_column > h4 {
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .skills_box {
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 390px;
+    height: 390px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skills_box {
+    margin: auto;
+    margin-top: 1rem;
+  }
 }
