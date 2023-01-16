@@ -8,10 +8,10 @@ import { Button } from "@mui/material";
 import { Box } from "@mui/system";
 
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
-import Image from "next/image";
 
-import profileImage from "../assets/profile.jpg";
 import { Languages } from "../components/Skills/Languages/Languages";
+import { FrameworksLibraries } from "../components/Skills/FrameworksLibraries/FrameworksLibraries";
+import { Tools } from "../components/Skills/Tools/Tools";
 
 function About() {
   return (
@@ -39,14 +39,10 @@ function About() {
               <Languages />
             </Grid>
             <Grid lg={4} className={styles.skills_grid} paddingX={0}>
-              <Box className={styles.skills_box}>
-                <h2 className={inter.className}>Frameworks/Libraries</h2>
-              </Box>
+              <FrameworksLibraries />
             </Grid>
             <Grid lg={4} className={styles.skills_grid} paddingX={0}>
-              <Box className={styles.skills_box}>
-                <h2 className={inter.className}>Tools</h2>
-              </Box>
+              <Tools />
             </Grid>
           </Grid>
           <p className={inter.className}>

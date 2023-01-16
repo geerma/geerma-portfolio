@@ -9,93 +9,92 @@ const inter = Inter({ subsets: ["latin"] });
 import styles from "../../../styles/About.module.css";
 
 // Logo Imports
-import cplusplusLogo from "../../../assets/skills/languages/c++.svg";
-import cssLogo from "../../../assets/skills/languages/css.svg";
-import htmlLogo from "../../../assets/skills/languages/html.svg";
-import javaLogo from "../../../assets/skills/languages/java.svg";
-import javascriptLogo from "../../../assets/skills/languages/javascript.svg";
-import phpLogo from "../../../assets/skills/languages/php.png";
-import pythonLogo from "../../../assets/skills/languages/python.svg";
-import typescriptLogo from "../../../assets/skills/languages/typescript.svg";
+import amazonLogo from "../../../assets/skills/tools/amazon.svg";
+import dockerLogo from "../../../assets/skills/tools/docker.svg";
+import firebaseLogo from "../../../assets/skills/tools/firebase.svg";
+import gcloudLogo from "../../../assets/skills/tools/gcloud.svg";
+import gitLogo from "../../../assets/skills/tools/git.svg";
+import mongodbLogo from "../../../assets/skills/tools/mongodb.svg";
+import mysqlLogo from "../../../assets/skills/tools/mysql.svg";
 
-export const Languages = () => {
+export const Tools = () => {
   return (
     <Box className={styles.skills_box}>
-      <h2 className={inter.className}>Languages</h2>
+      <h2 className={inter.className}>Tools</h2>
       <Box className={styles.languages_box}>
         <Grid lg={4} paddingX={0}>
           <Box className={styles.individual_item}>
             <Image
-              src={typescriptLogo}
+              src={gitLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>TypeScript</h4>
+            <h4 className={inter.className}>Git</h4>
             <Image
-              src={pythonLogo}
+              src={mysqlLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>Python</h4>
+            <h4 className={inter.className}>MySQL</h4>
             <Image
-              src={cssLogo}
+              src={dockerLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>CSS</h4>
+            <h4 className={inter.className}>Docker</h4>
           </Box>
         </Grid>
         <Grid lg={4} paddingX={0}>
           <Box className={styles.individual_item}>
             <Image
-              src={javascriptLogo}
+              src={amazonLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>JavaScript</h4>
+            <h4 className={inter.className}>AWS</h4>
             <Image
-              src={cplusplusLogo}
+              src={mongodbLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>C++</h4>
+            <h4 className={inter.className}>MongoDB</h4>
           </Box>
         </Grid>
         <Grid lg={4} paddingX={0}>
           <Box className={styles.individual_item}>
             <Image
-              src={javaLogo}
+              src={gcloudLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>Java</h4>
+            <h4 className={inter.className}>GCP</h4>
             <Image
-              src={htmlLogo}
+              src={firebaseLogo}
               alt="Profile Picture"
               width={80}
               height={80}
               quality={75}
               priority
             />
-            <h4 className={inter.className}>HTML</h4>
+            <h4 className={inter.className}>Firebase</h4>
           </Box>
         </Grid>
       </Box>

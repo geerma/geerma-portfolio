@@ -44,8 +44,6 @@
   flex-direction: row;
 }
 
-.individual_item > p {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.individual_item > h4 {
+  margin-bottom: 5px;
 }
