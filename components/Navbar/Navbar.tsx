@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import styles from "../../styles/Navbar.module.css";
+import styles from "../../styles/NavbarFooter.module.css";
 
 import { Button, Menu, MenuItem } from "@mui/material";
 

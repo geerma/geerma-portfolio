@@ -26,7 +26,7 @@ function Contact() {
         <div className={styles.center}>
           <h1 className={inter.className}>Contact</h1>
           <Box m={1}>
-            <a href="mailto:`GeerGMa@gmail.com`?subject=Email Inquiry from Geer Ma's Portfolio Site&body="><Button variant="contained" endIcon={<MailIcon />}>Email</Button></a>
+            <a href="mailto:GeerGMa@gmail.com?subject=Email Inquiry from Geer Ma's Portfolio Site&body="><Button variant="contained" endIcon={<MailIcon />}>Email</Button></a>
           </Box>
           <Box m={1}>
             <a target="_blank" href="https://github.com/geerma" rel="noopener noreferrer"><Button variant="contained" endIcon={<GitHubIcon />}>GitHub</Button></a>

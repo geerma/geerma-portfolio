@@ -2,7 +2,7 @@ import React from "react";
 
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import styles from "../../styles/Navbar.module.css";
+import styles from "../../styles/NavbarFooter.module.css";
 
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <Box className={styles.footer}>
       <Box my={1} className={styles.footer_email}>
-        <a href="mailto:`GeerGMa@gmail.com`?subject=Email Inquiry from Geer Ma's Portfolio Site&body="><Button>geergma@gmail.com</Button></a>
+        <a href="mailto:GeerGMa@gmail.com?subject=Email Inquiry from Geer Ma's Portfolio Site&body="><Button>geergma@gmail.com</Button></a>
       </Box>
       <Box my={1} className={styles.footer_icons}>
         <a target="_blank" href="https://www.linkedin.com/in/geerma" rel="noopener noreferrer"><Button startIcon={<LinkedInIcon />} /></a>
