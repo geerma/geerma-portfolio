@@ -22,7 +22,7 @@
   max-width: 1000px;
 }
 
-.about_buttons {
+.action_buttons {
   display: flex;
   flex-direction: row;
 }

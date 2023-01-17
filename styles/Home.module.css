@@ -55,6 +55,28 @@
   font-size: 22px;
 }
 
+.learn_more {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 80vw;
+  background-color: rgb(226, 240, 249, 0.85);
+  border-radius: 3rem;
+}
+
+.action_buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.about_button {
+  margin: 1rem;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

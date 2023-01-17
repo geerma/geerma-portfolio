@@ -49,10 +49,10 @@ function About() {
             If you are interested in learning more, check out my resume and
             projects below!
           </p>
-          <div className={styles.about_buttons}>
+          <div className={styles.action_buttons}>
             <a
               target="_blank"
-              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan11.pdf"
+              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume.pdf"
               rel="noopener noreferrer"
             >
               <Box m={1}>
