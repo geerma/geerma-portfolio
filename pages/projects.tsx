@@ -18,6 +18,7 @@ import mlmbtiwebappImage from "../assets/MLMbtiWebapp.png"
 import portfolioImage from "../assets/Portfolio.png"
 import leftoversmarketplaceImage from "../assets/LeftoversMarketplace.png";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
+import Footer from "../components/Footer/Footer";
 
 const theme = createTheme({
   breakpoints: {
@@ -145,6 +146,7 @@ function Projects() {
           </ThemeProvider>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

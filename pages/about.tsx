@@ -12,6 +12,7 @@ import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import { Languages } from "../components/Skills/Languages/Languages";
 import { FrameworksLibraries } from "../components/Skills/FrameworksLibraries/FrameworksLibraries";
 import { Tools } from "../components/Skills/Tools/Tools";
+import Footer from "../components/Footer/Footer";
 
 function About() {
   return (
@@ -67,6 +68,7 @@ function About() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

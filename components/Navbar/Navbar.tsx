@@ -38,7 +38,6 @@ const Navbar = () => {
     window.addEventListener("resize", handleWindowResize);
 
     setIsMobile(detectMob());
-    console.log(detectMob());
 
     return () => window.removeEventListener("resize", handleWindowResize);
   }, [width]);
