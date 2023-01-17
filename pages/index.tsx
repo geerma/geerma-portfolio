@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import Image from "next/image";
 import { Button } from "@mui/material";
 
@@ -24,10 +25,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar />
-      <main className={styles.main}>
+      <main className={styles.home}>
         <div className={styles.profile_section}>
           <div className={styles.center}>
-            <h1 className={inter.className}>Hello! I'm Geer Ma</h1>
+            <h1 className={inter.className}>Geer Ma</h1>
             <br></br>
             <h2 className={inter.className}>
               Software Engineering MEng Student
@@ -81,25 +82,26 @@ export default function Home() {
         </div>
         <Box className={styles.learn_more}>
           <h2 className={inter.className}>To Learn More</h2>
-          <div className={styles.action_buttons}>
+          <Box className={styles.action_buttons}>
             <a href="/about">
               <Box m={1}>
-                <Button variant="contained">About Me</Button>
+                <Button size="medium" variant="contained">About Me</Button>
               </Box>
             </a>
             <a href="/projects">
               <Box m={1}>
-                <Button variant="contained">Other Projects</Button>
+                <Button size="medium" variant="contained">Other Projects</Button>
               </Box>
             </a>
             <a href="/contact">
               <Box m={1}>
-                <Button variant="contained">Contact Me</Button>
+                <Button size="medium" variant="contained">Contact Me</Button>
               </Box>
             </a>
-          </div>
+          </Box>
         </Box>
       </main>
+      <Footer />
     </>
   );
 }

@@ -6,6 +6,11 @@
   background-color: rgb(226, 240, 249, 0.85);
   box-shadow: 0 3px 9px 0 rgb(0 0 0 / 20%);
   align-items: center;
+
+  position: relative;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
 }
 
 .logo {
@@ -56,4 +61,28 @@
   .navbuttons {
     margin-right: 4rem;
   }
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.footer_email  {
+  text-align: center;
+}
+
+.footer_icons {
+  text-align: center;
+}
+
+.footer_copyright {
+  text-align: center;
+}
+
+.footer_copyright a {
+  border-bottom: 1px dotted;
+  color: #1976d2;
 }
