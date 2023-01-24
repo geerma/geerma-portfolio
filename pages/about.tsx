@@ -32,7 +32,7 @@ function About() {
             Engineering at the University of Calgary. I love learning new
             libraries and frameworks, then applying those skills in personal
             projects or hackathons. I have taken the initiative to participate
-            in eight hackathons in my free time and have received awards in five
+            in nine hackathons in my free time and have received awards in six
             of them.
           </p>
           <Grid container spacing={1}>

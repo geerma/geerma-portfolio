@@ -18,6 +18,7 @@ import mlmbtiwebappImage from "../assets/MLMbtiWebapp.png"
 import portfolioImage from "../assets/Portfolio.png"
 import leftoversmarketplaceImage from "../assets/LeftoversMarketplace.png";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
+import volunteervisionImage from "../assets/VolunteerVision.png";
 import Footer from "../components/Footer/Footer";
 
 const theme = createTheme({
@@ -67,12 +68,23 @@ function Projects() {
               </Grid>
               <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
                 <Projectpageproject
+                  projectImage={volunteervisionImage}
+                  projectGithubLink="https://github.com/geerma/volunteer-vision"
+                  projectLiveLink="https://kazitasin07.wixsite.com/volunteer-vision/"
+                  projectName="Volunteer Vision"
+                  projectTechStack="React, Supabase, Auth0, Twilio, Wix"
+                  projectMotivation="CivicHacks [🥇 1st Place]"
+                  projectDescription="A platform that connects volunteers with local non-profit organizations. Contains a Wix landing page, leading to a Next.js web application"
+                />
+              </Grid>
+              <Grid xs={12} sm={12} md={12} lg={6} className={styles.gridcomponent}>
+                <Projectpageproject
                   projectImage={thegivingtreeImage}
                   projectGithubLink="https://github.com/geerma/thegivingtree"
                   projectLiveLink="https://www.thegivingtree.tech/"
                   projectName="The Giving Tree"
                   projectTechStack="React, TypeScript, Express, OpenAI ChatGPT-3"
-                  projectMotivation="Hackathon - Hacky Winterland 2"
+                  projectMotivation="Hacky Winterland 2 [🏅 Best Holiday Design]"
                   projectDescription="Project utilizes OpenAI ChatGPT-3 to suggest gift and event ideas. Built with React and Express, then deployed via Google Cloud Run"
                 />
               </Grid>
@@ -83,7 +95,7 @@ function Projects() {
                   projectLiveLink="https://www.leftoversmarketplace.tech/"
                   projectName="Leftovers Marketplace"
                   projectTechStack="React, Express, MongoDB"
-                  projectMotivation="Hackathon - Wafflehacks 2022"
+                  projectMotivation="Wafflehacks 2022 [🏅 Dream Big with AB InBev]"
                   projectDescription="Full-stack web application to help fight food insecurity. Built using React, Express, and MongoDB"
                 />
               </Grid>
@@ -94,7 +106,7 @@ function Projects() {
                   projectLiveLink="https://www.coherecampingcreator.tech/"
                   projectName="Cohere Camping Creator"
                   projectTechStack="React, Express, NLP Cohere AI"
-                  projectMotivation="Hackathon - FreyHacks & SimpliHacks 2022"
+                  projectMotivation="FreyHacks & SimpliHacks 2022 [2x🏅 Best Use of NLP with Cohere AI]"
                   projectDescription="Project using NLP Cohere AI to generate scary stories and questions to spark camping trip conversations"
                 />
               </Grid>
@@ -116,7 +128,7 @@ function Projects() {
                   projectLiveLink="https://gambling-go-away.vercel.app/"
                   projectName="Gambling Go Away"
                   projectTechStack="React, Firebase"
-                  projectMotivation="Hackathon - LaunchHacks 2022"
+                  projectMotivation="LaunchHacks 2022 [🥉 3rd Place]"
                   projectDescription="Web application created using React and Firebase to aid users in overcoming gambling addictions"
                 />
               </Grid>
@@ -138,7 +150,7 @@ function Projects() {
                   projectLiveLink=""
                   projectName="Blue Sky"
                   projectTechStack="Python, Microsoft Azure OCR and Speech Recognition"
-                  projectMotivation="Hackathon - ShellHacks 2022"
+                  projectMotivation="ShellHacks 2022"
                   projectDescription="PySimpleGUI application using Microsoft Azure Computer Vision and Speech Recognition"
                 />
               </Grid>

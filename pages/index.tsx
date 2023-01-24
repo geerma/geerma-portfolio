@@ -13,6 +13,7 @@ import Homepageproject from "../components/Homepageproject/Homepageproject";
 import profileImage from "../assets/profile.jpg";
 import activetechstyleImage from "../assets/ActiveTechStyle.jpg";
 import thegivingtreeImage from "../assets/TheGivingTree.png";
+import volunteervisionImage from "../assets/VolunteerVision.png";
 import { Box } from "@mui/system";
 
 export default function Home() {
@@ -65,9 +66,19 @@ export default function Home() {
             projectGithubLink="https://github.com/geerma/activetechstyle"
             projectLiveLink="https://main.d9qvddew27vgt.amplifyapp.com/"
             projectName="Active Tech Style"
-            projectTechStack="React, Spring Boot, MySQL"
+            projectTechStack="React, Spring Boot, MySQL, AWS"
             projectMotivation="Course Project (Improvements made after - as a Personal Project)"
             projectDescription="Full-stack E-Commerce Application using React.js, Java, Spring, and MySQL. Deployed to AWS with Amplify, Elastic Beanstalk, RDS, ACM, and Route 53"
+          />
+          <br></br>
+          <Homepageproject
+            projectImage={volunteervisionImage}
+            projectGithubLink="https://github.com/geerma/volunteer-vision"
+            projectLiveLink="https://kazitasin07.wixsite.com/volunteer-vision/"
+            projectName="Volunteer Vision"
+            projectTechStack="React, Supabase, Auth0, Twilio, Wix"
+            projectMotivation="CivicHacks [🥇 1st Place]"
+            projectDescription="A platform that connects volunteers with local non-profit organizations. Contains a Wix landing page, leading to a Next.js web application"
           />
           <br></br>
           <Homepageproject
@@ -76,7 +87,7 @@ export default function Home() {
             projectLiveLink="https://www.thegivingtree.tech/"
             projectName="The Giving Tree"
             projectTechStack="React, TypeScript, Express, ChatGPT-3 AI"
-            projectMotivation="Hackathon - Hacky Winterland 2"
+            projectMotivation="Hacky Winterland 2 [🏅 Best Holiday Design]"
             projectDescription="Gift and event suggestion web application created using React, TypeScript, and ChatGPT3-AI. Server deployed to Google Cloud Run via a Docker image on Google Container Registry"
           />
         </div>
