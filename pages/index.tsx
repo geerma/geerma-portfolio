@@ -47,7 +47,7 @@ export default function Home() {
             />
             <a
               target="_blank"
-              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume.pdf"
+              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan31.pdf"
               rel="noopener noreferrer"
             >
               <Button className={styles.resume_button} variant="contained">

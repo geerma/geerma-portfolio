@@ -28,11 +28,11 @@ function About() {
         <div className={styles.center}>
           <h1 className={inter.className}>About Me</h1>
           <p className={inter.className}>
-            My name is Geer Ma and I am pursuing a Master's in Software
-            Engineering at the University of Calgary. I love learning new
+            My name is Geer Ma and I am pursuing a master's in software
+            engineering at the University of Calgary. I love learning new
             libraries and frameworks, then applying those skills in personal
             projects or hackathons. I have taken the initiative to participate
-            in nine hackathons in my free time and have received awards in six
+            in 9 hackathons in my free time and have received awards in 6
             of them.
           </p>
           <Grid container spacing={1}>
@@ -53,7 +53,7 @@ function About() {
           <div className={styles.action_buttons}>
             <a
               target="_blank"
-              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume.pdf"
+              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan31.pdf"
               rel="noopener noreferrer"
             >
               <Box m={1}>
