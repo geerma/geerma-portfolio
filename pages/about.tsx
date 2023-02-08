@@ -53,7 +53,7 @@ function About() {
           <div className={styles.action_buttons}>
             <a
               target="_blank"
-              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume_jan31.pdf"
+              href="https://geerma-portfolio-bucket.s3.us-west-1.amazonaws.com/geerma_resume.pdf"
               rel="noopener noreferrer"
             >
               <Box m={1}>
